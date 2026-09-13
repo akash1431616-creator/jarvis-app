@@ -31,9 +31,3 @@ android {
 
 dependencies {
 }
-
-// Flutter gradle hook ko sabse last me rakhte hain
-def flutterRoot = localProperties.getProperty('flutter.sdk')
-if (flutterRoot != null) {
-    apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
-}
