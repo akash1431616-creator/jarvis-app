@@ -36,3 +36,5 @@ flutter {
 
 dependencies {
 }
+
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
